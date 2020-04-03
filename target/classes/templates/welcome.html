@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Output page</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-info text-center">Welcome to Springboot Thymeleaf example</h2>
+        <hr/>
+        <div id="message">
+            <p class="lead" th:text="${mymsg}" />
+        </div>
+    </div>
+</body>
+
+</html>
